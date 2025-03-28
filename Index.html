@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        body {
+            background: linear-gradient(to bottom, #ffffff 0%, #ffa6004e 220%);
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+
+        header {
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .iniciar-sesion {
+            display: flex;
+            align-items: center;
+            margin: 2px;
+            padding: 2px;
+            box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            margin-right: 15px;
+            margin-top: 30px;
+        }
+
+        .iniciar-sesion h2 {
+            margin-right: 10px;
+            text-align: right;
+            font-size: small;
+            margin-left: 10px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: rgb(79, 79, 79);
+        }
+
+        .icon-inicar-sesion img {
+            width: 35px;
+            height: 30px;
+        }
+
+        main {
+            display: flex;
+            align-items: start;
+            margin-left: 63vh;
+        }
+
+        .saludo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: -38vh;
+        }
+
+        .saludo h1{
+            display: flex;
+            font-size: 35px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: rgb(29, 29, 29);
+        }
+        
+        footer {
+            justify-content: center;
+            align-items: center;
+        }
+
+        .barra-solicitudes {
+            display: flex;
+            align-items: center;
+            box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.22);
+            border-radius: 30px;
+            border: #ffffff;
+            margin-bottom: 40px;    
+            padding: 5px;
+            background-color: #ffffff62;
+            border: 1.8px solid #ffffff;
+            width: 75vh;
+            margin-left: 60vh;
+        }
+
+        .icon-copilot img {
+            width: 24px;
+            height: 24px;
+            margin-right: 15px;
+            margin-left: 5px;
+        }
+
+        .icon-plus img {
+            width: 25px;
+            height: 26px;
+            margin-right: 10px;
+            flex-direction: c;
+        }
+
+        .segmento-derecho {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .barra-introducir-texto input {
+            width: 580px;
+            height: 30px;
+            border-radius: 20px;
+            border: 1px solid #ffffff;
+            padding: 10px;
+            margin-right: 8px;
+        }
+
+        .icon-voice img {
+            width: 36px;
+            height: 32px;
+            margin-top: 10px;    
+        }
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <div class="iniciar-sesion">
+            <h2>Iniciar sesión</h2>
+            <div class="icon-inicar-sesion">
+              <img src="img/image-removebg-preview.png" alt="">
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="saludo">
+            <h1>Hola, ¿cómo puedo ayudar?</h1>
+        </div>
+    </main>
+    <footer>
+        <div class="barra-solicitudes">
+            <div class="icon-copilot">
+                <img src="img/Microsoft_365_Copilot_Icon.svg.png" alt="">
+            </div>
+            <div class="icon-plus">
+                <img src="img/image-removebg-preview (1).png" alt="">
+            </div>
+            <div class="segmento-derecho">
+                <div class="barra-introducir-texto">
+                    <input type="text" placeholder="Enviar un mensaje a Copilot">
+                </div>
+                <div class="icon-voice">
+                    <img src="img/image-removebg-preview (2).png" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
